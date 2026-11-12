@@ -1,0 +1,12 @@
+scenario,family,model,label,endpoint,estimate,conf_low,conf_high,p_value,n_courses,n_patient_clusters,candidates,events,adjustment,bootstrap_successes,bootstrap_requested,model_status
+primary,Baseline,,"Age, per 10 years",,0.94220316320007,0.638623972975531,1.39009313510101,0.764150361179451,1484,1368,26,26,,1000,1000,Estimated (exploratory)
+primary,Baseline,,ECOG 2-5 vs 0-1,,1.29004438350233,0.534378406905168,3.1142996983058,0.571142710019622,1451,1336,26,26,,1000,1000,Estimated (exploratory)
+primary,Baseline,,Female vs male,,0.915757620128365,0.408267009752115,2.05407735328,0.830925379007377,1482,1367,26,26,,1000,1000,Estimated (exploratory)
+primary,Baseline,,"Prior treatment lines, per line",,0.998838389852897,0.867383200675763,1.15021610779025,0.987119945462679,1469,1358,25,25,,1000,1000,Estimated (exploratory)
+primary,Baseline,,At least one HRCA vs none,,0.921603171107686,0.405488549594646,2.09463967809896,0.845475689389623,1332,1232,24,24,,1000,1000,Estimated (exploratory)
+primary,Baseline,,True EMD vs none/paraskeletal only,,3.35835835835836,1.48359458315116,7.60219199452707,0.00365728917406152,1308,1204,25,25,,1000,1000,Estimated (exploratory)
+primary,Response,,Response >=PR (adjusted),,1.89100495140268,0.580959097518857,6.15516607193396,0.290026251555389,1125,1041,21,763,age10; ecog2; female; prior_lines; hrca; true_emd,1000,1000,Estimated (exploratory)
+primary,Response,,Response >=VGPR (adjusted),,0.533954246600883,0.200080052859789,1.42496532456892,0.210267142314517,1125,1041,21,613,age10; ecog2; female; prior_lines; hrca; true_emd,1000,1000,Estimated (exploratory)
+primary,Response,,Response CR/sCR (adjusted),,0.664116029457307,0.204709467127886,2.15451735950544,0.495460287735144,1125,1041,21,387,age10; ecog2; female; prior_lines; hrca; true_emd,1000,1000,Estimated (exploratory)
+primary,,Adjusted: six baseline variables,PFS,PFS,0.85736433105442,0.515108942738097,1.4270254992217,0.553839319339765,1146,1076,20,751,age10; ecog2; female; prior_lines; hrca; true_emd,,,Estimated (exploratory)
+primary,,Adjusted: six baseline variables,OS,OS,1.11344774933673,0.670928552339855,1.84783593749194,0.677563398920315,1174,1082,23,551,age10; ecog2; female; prior_lines; hrca; true_emd,,,Estimated (exploratory)

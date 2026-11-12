@@ -1,0 +1,85 @@
+"scenario","field","group","total","evaluable","unavailable"
+"primary","age10","No included flare",1458,1458,0
+"primary","age10","Flare candidate",26,26,0
+"primary","ecog2","No included flare",1458,1425,33
+"primary","ecog2","Flare candidate",26,26,0
+"primary","female","No included flare",1458,1456,2
+"primary","female","Flare candidate",26,26,0
+"primary","prior_lines","No included flare",1458,1444,14
+"primary","prior_lines","Flare candidate",26,25,1
+"primary","hrca","No included flare",1458,1308,150
+"primary","hrca","Flare candidate",26,24,2
+"primary","true_emd","No included flare",1458,1283,175
+"primary","true_emd","Flare candidate",26,25,1
+"primary","hgb","No included flare",1458,1415,43
+"primary","hgb","Flare candidate",26,25,1
+"primary","albumin","No included flare",1458,1404,54
+"primary","albumin","Flare candidate",26,25,1
+"primary","log2_ldh","No included flare",1458,1224,234
+"primary","log2_ldh","Flare candidate",26,15,11
+"primary","log2_ferritin","No included flare",1458,989,469
+"primary","log2_ferritin","Flare candidate",26,9,17
+"primary","log2_crp","No included flare",1458,983,475
+"primary","log2_crp","Flare candidate",26,10,16
+"primary","response_pr","No included flare",1458,1401,57
+"primary","response_pr","Flare candidate",26,23,3
+"primary","response_vgpr","No included flare",1458,1401,57
+"primary","response_vgpr","Flare candidate",26,23,3
+"primary","response_cr","No included flare",1458,1401,57
+"primary","response_cr","Flare candidate",26,23,3
+"strict","age10","No included flare",1458,1458,0
+"strict","age10","Flare candidate",13,13,0
+"strict","ecog2","No included flare",1458,1425,33
+"strict","ecog2","Flare candidate",13,13,0
+"strict","female","No included flare",1458,1456,2
+"strict","female","Flare candidate",13,13,0
+"strict","prior_lines","No included flare",1458,1444,14
+"strict","prior_lines","Flare candidate",13,13,0
+"strict","hrca","No included flare",1458,1308,150
+"strict","hrca","Flare candidate",13,12,1
+"strict","true_emd","No included flare",1458,1283,175
+"strict","true_emd","Flare candidate",13,13,0
+"strict","hgb","No included flare",1458,1415,43
+"strict","hgb","Flare candidate",13,13,0
+"strict","albumin","No included flare",1458,1404,54
+"strict","albumin","Flare candidate",13,13,0
+"strict","log2_ldh","No included flare",1458,1224,234
+"strict","log2_ldh","Flare candidate",13,7,6
+"strict","log2_ferritin","No included flare",1458,989,469
+"strict","log2_ferritin","Flare candidate",13,5,8
+"strict","log2_crp","No included flare",1458,983,475
+"strict","log2_crp","Flare candidate",13,6,7
+"strict","response_pr","No included flare",1458,1401,57
+"strict","response_pr","Flare candidate",13,12,1
+"strict","response_vgpr","No included flare",1458,1401,57
+"strict","response_vgpr","Flare candidate",13,12,1
+"strict","response_cr","No included flare",1458,1401,57
+"strict","response_cr","Flare candidate",13,12,1
+"without_dominant_site","age10","No included flare",1286,1286,0
+"without_dominant_site","age10","Flare candidate",12,12,0
+"without_dominant_site","ecog2","No included flare",1286,1253,33
+"without_dominant_site","ecog2","Flare candidate",12,12,0
+"without_dominant_site","female","No included flare",1286,1284,2
+"without_dominant_site","female","Flare candidate",12,12,0
+"without_dominant_site","prior_lines","No included flare",1286,1272,14
+"without_dominant_site","prior_lines","Flare candidate",12,11,1
+"without_dominant_site","hrca","No included flare",1286,1168,118
+"without_dominant_site","hrca","Flare candidate",12,11,1
+"without_dominant_site","true_emd","No included flare",1286,1111,175
+"without_dominant_site","true_emd","Flare candidate",12,11,1
+"without_dominant_site","hgb","No included flare",1286,1243,43
+"without_dominant_site","hgb","Flare candidate",12,11,1
+"without_dominant_site","albumin","No included flare",1286,1233,53
+"without_dominant_site","albumin","Flare candidate",12,11,1
+"without_dominant_site","log2_ldh","No included flare",1286,1111,175
+"without_dominant_site","log2_ldh","Flare candidate",12,10,2
+"without_dominant_site","log2_ferritin","No included flare",1286,944,342
+"without_dominant_site","log2_ferritin","Flare candidate",12,9,3
+"without_dominant_site","log2_crp","No included flare",1286,935,351
+"without_dominant_site","log2_crp","Flare candidate",12,9,3
+"without_dominant_site","response_pr","No included flare",1286,1235,51
+"without_dominant_site","response_pr","Flare candidate",12,10,2
+"without_dominant_site","response_vgpr","No included flare",1286,1235,51
+"without_dominant_site","response_vgpr","Flare candidate",12,10,2
+"without_dominant_site","response_cr","No included flare",1286,1235,51
+"without_dominant_site","response_cr","Flare candidate",12,10,2

@@ -1,0 +1,418 @@
+{
+  "schema": "tumor-flare-public-case-coded-v1",
+  "fields": [
+    "case_label",
+    "product",
+    "confidence",
+    "bridging",
+    "comparative_included",
+    "onset_days",
+    "peak_days",
+    "resolution_days",
+    "onset_lower",
+    "onset_upper",
+    "onset_estimated",
+    "peak_estimated",
+    "resolution_estimated",
+    "onset_timing_type",
+    "peak_timing_type",
+    "resolution_timing_type",
+    "symptom_status",
+    "local_outcome",
+    "pain_flare",
+    "palpable_enlargement",
+    "imaging_worsening",
+    "new_lesion",
+    "neurologic_cns",
+    "biochemical_or_organ",
+    "paraskeletal_involvement",
+    "cns_involvement",
+    "spinal_involvement",
+    "organ_dysfunction",
+    "flare_hospitalization",
+    "icu_due_to_flare",
+    "pathologic_fracture",
+    "cord_compression",
+    "overlap_crs",
+    "overlap_icans",
+    "overlap_infection",
+    "alternative_fracture",
+    "alternative_toxicity",
+    "other_competing_explanation",
+    "management_steroids",
+    "management_radiation",
+    "management_surgery",
+    "management_toci_anakinra",
+    "true_pd_within_14d",
+    "focality",
+    "known_or_new_site",
+    "skeletal_flare_type",
+    "true_emd_classification",
+    "bsab_action",
+    "first_postflare_response",
+    "first_response_on_index",
+    "first_response_category_estimated",
+    "subsequent_response",
+    "subsequent_response_on_index",
+    "best_index_response",
+    "alternative_diagnosis",
+    "later_local_assessment_context",
+    "later_local_after_radiation",
+    "later_local_after_salvage",
+    "later_local_after_cart",
+    "later_local_separate_from_systemic_response",
+    "peak_before_point_onset"
+  ],
+  "neutral_label_pattern": "TF[0-9]{2}",
+  "numeric_elapsed_fields": [
+    "onset_days",
+    "peak_days",
+    "resolution_days",
+    "onset_lower",
+    "onset_upper"
+  ],
+  "numeric_unit": "days after first step-up dose",
+  "empty_numeric_value": "unavailable",
+  "finite_category_vocabulary": {
+    "product": [
+      "Teclistamab",
+      "Talquetamab",
+      "Elranatamab",
+      "Linvoseltamab"
+    ],
+    "confidence": [
+      "Definite",
+      "Probable",
+      "Possible"
+    ],
+    "symptom_status": [
+      "RESOLVED",
+      "IMPROVED_ONGOING",
+      "ONGOING_NOT_IMPROVED",
+      "DEATH_BEFORE_RESOLUTION",
+      "UNKNOWN"
+    ],
+    "local_outcome": [
+      "RESOLVED",
+      "IMPROVED",
+      "STABLE",
+      "WORSENED",
+      "NOT_REASSESSED",
+      "UNKNOWN"
+    ],
+    "focality": [
+      "SINGLE_SITE",
+      "MULTIFOCAL",
+      "DIFFUSE_SYSTEMIC",
+      "UNKNOWN"
+    ],
+    "known_or_new_site": [
+      "KNOWN_SITE",
+      "NEW_SITE",
+      "UNCLEAR"
+    ],
+    "skeletal_flare_type": [
+      "LYTIC",
+      "MIXED",
+      "NONE",
+      "OTHER_OSSEOUS",
+      "UNKNOWN"
+    ],
+    "true_emd_classification": [
+      "NONE",
+      "NONVISCERAL",
+      "VISCERAL",
+      "VISCERAL_AND_NONVISCERAL",
+      "NOT_APPLICABLE",
+      "UNKNOWN"
+    ],
+    "bsab_action": [
+      "CONTINUED",
+      "DELAYED",
+      "HELD_RESUMED",
+      "DISCONTINUED",
+      "UNKNOWN"
+    ],
+    "first_postflare_response": [
+      "sCR",
+      "CR",
+      "VGPR",
+      "PR",
+      "MR",
+      "SD",
+      "PD",
+      "NE",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "subsequent_response": [
+      "sCR",
+      "CR",
+      "VGPR",
+      "PR",
+      "MR",
+      "SD",
+      "PD",
+      "NE",
+      "NONE_DOCUMENTED",
+      "NOT_REASSESSED",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "best_index_response": [
+      "sCR",
+      "CR",
+      "VGPR",
+      "PR",
+      "MR",
+      "SD",
+      "PD",
+      "UNAVAILABLE"
+    ],
+    "alternative_diagnosis": [
+      "NONE_IDENTIFIED",
+      "TRUE_PROGRESSION",
+      "UNCERTAIN"
+    ],
+    "onset_timing_type": [
+      "RECORDED_POINT",
+      "ESTIMATED_POINT",
+      "INTERVAL",
+      "UNAVAILABLE"
+    ],
+    "peak_timing_type": [
+      "RECORDED_POINT",
+      "ESTIMATED_POINT",
+      "UNAVAILABLE"
+    ],
+    "resolution_timing_type": [
+      "RECORDED_POINT",
+      "ESTIMATED_POINT",
+      "UNAVAILABLE"
+    ],
+    "first_response_category_estimated": [
+      "YES",
+      "NO",
+      "NOT_REPORTED"
+    ],
+    "later_local_assessment_context": [
+      "AFTER_RADIATION",
+      "AFTER_SALVAGE",
+      "AFTER_CART",
+      "AFTER_RADIATION_AND_SALVAGE",
+      "NOT_REPORTED"
+    ],
+    "later_local_after_radiation": [
+      "YES",
+      "NO",
+      "NOT_REPORTED"
+    ],
+    "later_local_after_salvage": [
+      "YES",
+      "NO",
+      "NOT_REPORTED"
+    ],
+    "later_local_after_cart": [
+      "YES",
+      "NO",
+      "NOT_REPORTED"
+    ],
+    "later_local_separate_from_systemic_response": [
+      "YES",
+      "NOT_REPORTED"
+    ],
+    "peak_before_point_onset": [
+      "YES",
+      "NO",
+      "NOT_EVALUABLE"
+    ],
+    "bridging": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "comparative_included": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "onset_estimated": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "peak_estimated": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "resolution_estimated": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "first_response_on_index": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "subsequent_response_on_index": [
+      "TRUE",
+      "FALSE",
+      "UNKNOWN"
+    ],
+    "pain_flare": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "palpable_enlargement": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "imaging_worsening": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "new_lesion": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "neurologic_cns": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "biochemical_or_organ": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "paraskeletal_involvement": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "cns_involvement": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "spinal_involvement": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "organ_dysfunction": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "flare_hospitalization": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "icu_due_to_flare": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "pathologic_fracture": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "cord_compression": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "overlap_crs": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "overlap_icans": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "overlap_infection": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "alternative_fracture": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "alternative_toxicity": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "other_competing_explanation": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "management_steroids": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "management_radiation": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "management_surgery": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "management_toci_anakinra": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ],
+    "true_pd_within_14d": [
+      "YES",
+      "NO",
+      "UNKNOWN",
+      "NOT_APPLICABLE"
+    ]
+  },
+  "local_assessment_not_reported": "Absence of a reported additional-treatment assessment does not establish absence of that treatment.",
+  "response_attribution": "First and subsequent on-index flags qualify the corresponding response categories. Additional-treatment local assessments are separate from index-course systemic response.",
+  "estimated_response_flag": "YES identifies a source-supported viewer-estimated response category. NOT_REPORTED means that estimation status is not established."
+}

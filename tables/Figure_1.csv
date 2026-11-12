@@ -1,0 +1,17 @@
+track,label,n,scenario,product,courses,flare_candidates,incidence_percent,lower_95_percent,upper_95_percent
+comparative,Master bispecific courses,2084,,,,,,,
+comparative,First eligible BCMA / all GPRC5D courses,2071,,,,,,,
+comparative,Nonbridging eligible courses,1834,,,,,,,
+comparative,"Known flare status
+(350 unavailable excluded)",1484,,,,,,,
+comparative,Suspected flare,26,,,,,,,
+comparative,No included flare,1458,,,,,,,
+case_series,Site-reviewed suspected flare,33,,,,,,,
+case_series,Definite,9,,,,,,,
+case_series,Probable,9,,,,,,,
+case_series,Possible,15,,,,,,,
+case_series,Primary cohort,26,,,,,,,
+case_series,Bridging excluded,6,,,,,,,
+case_series,Later BCMA excluded,1,,,,,,,
+incidence,primary,26,primary,Overall,1484,26,1.75202156334232,1.14758949385429,2.55664020526718
+incidence,strict,13,strict,Overall,1471,13,0.8837525492862,0.471376047100863,1.5065024919478

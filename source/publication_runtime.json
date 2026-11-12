@@ -1,0 +1,7 @@
+{
+  "python_version_verified": "3.12.14",
+  "python_dependency_lock": "requirements-publication.txt",
+  "r_dependency_lock": "renv.lock",
+  "pdf_font": "Helvetica (base PDF vector output)",
+  "png_device": "ragg 320 dpi"
+}

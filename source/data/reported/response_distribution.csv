@@ -1,0 +1,33 @@
+"scenario","group","category","n","evaluable","total_courses","unavailable","percent"
+"primary","No included flare","sCR",105,1401,1458,57,7.49464668094218
+"primary","No included flare","CR",376,1401,1458,57,26.8379728765168
+"primary","No included flare","VGPR",287,1401,1458,57,20.4853675945753
+"primary","No included flare","PR",185,1401,1458,57,13.2048536759458
+"primary","No included flare","MR",28,1401,1458,57,1.99857244825125
+"primary","No included flare","SD",145,1401,1458,57,10.349750178444
+"primary","No included flare","PD",275,1401,1458,57,19.6288365453248
+"primary","No included flare","Unavailable",57,1401,1458,57,3.90946502057613
+"primary","Flare candidate","sCR",0,23,26,3,0
+"primary","Flare candidate","CR",5,23,26,3,21.7391304347826
+"primary","Flare candidate","VGPR",3,23,26,3,13.0434782608696
+"primary","Flare candidate","PR",9,23,26,3,39.1304347826087
+"primary","Flare candidate","MR",1,23,26,3,4.34782608695652
+"primary","Flare candidate","SD",0,23,26,3,0
+"primary","Flare candidate","PD",5,23,26,3,21.7391304347826
+"primary","Flare candidate","Unavailable",3,23,26,3,11.5384615384615
+"strict","No included flare","sCR",105,1401,1458,57,7.49464668094218
+"strict","No included flare","CR",376,1401,1458,57,26.8379728765168
+"strict","No included flare","VGPR",287,1401,1458,57,20.4853675945753
+"strict","No included flare","PR",185,1401,1458,57,13.2048536759458
+"strict","No included flare","MR",28,1401,1458,57,1.99857244825125
+"strict","No included flare","SD",145,1401,1458,57,10.349750178444
+"strict","No included flare","PD",275,1401,1458,57,19.6288365453248
+"strict","No included flare","Unavailable",57,1401,1458,57,3.90946502057613
+"strict","Flare candidate","sCR",0,12,13,1,0
+"strict","Flare candidate","CR",4,12,13,1,33.3333333333333
+"strict","Flare candidate","VGPR",2,12,13,1,16.6666666666667
+"strict","Flare candidate","PR",5,12,13,1,41.6666666666667
+"strict","Flare candidate","MR",0,12,13,1,0
+"strict","Flare candidate","SD",0,12,13,1,0
+"strict","Flare candidate","PD",1,12,13,1,8.33333333333333
+"strict","Flare candidate","Unavailable",1,12,13,1,7.69230769230769
