@@ -1,0 +1,8 @@
+Model,Courses / patients,"Flare courses / total outcomes
+Outcomes in flare courses",Excluded for missing data,OR (95% CI),P value
+Response ≥PR (adjusted),979 / 923,"9 / 664
+Outcomes in flare courses 8",319,2.38 (0.57–10.02),0.2367
+Response ≥VGPR (adjusted),979 / 923,"9 / 531
+Outcomes in flare courses 4",319,0.59 (0.13–2.77),0.5075
+Response CR/sCR (adjusted),979 / 923,"9 / 324
+Outcomes in flare courses 2",319,0.55 (0.09–3.32),0.5174

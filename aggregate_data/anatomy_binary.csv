@@ -1,0 +1,17 @@
+group,section,panel,field,label,category,n,denominator,percent
+All,Anatomy,Anatomy,paraskeletal_involvement,Paraskeletal involvement,No,12,33,36.3636363636364
+All,Anatomy,Anatomy,paraskeletal_involvement,Paraskeletal involvement,Not applicable,1,33,3.03030303030303
+All,Anatomy,Anatomy,paraskeletal_involvement,Paraskeletal involvement,Unknown,2,33,6.06060606060606
+All,Anatomy,Anatomy,paraskeletal_involvement,Paraskeletal involvement,Yes,18,33,54.5454545454545
+All,Anatomy,Anatomy,true_emd_any,True EMD,No,14,33,42.42424242424242
+All,Anatomy,Anatomy,true_emd_any,True EMD,Yes,12,33,36.36363636363637
+All,Anatomy,Anatomy,true_emd_any,True EMD,Unknown,6,33,18.181818181818183
+All,Anatomy,Anatomy,true_emd_any,True EMD,Not applicable,1,33,3.0303030303030303
+All,Anatomy,Anatomy,spinal_involvement,Spinal involvement,No,22,33,66.6666666666667
+All,Anatomy,Anatomy,spinal_involvement,Spinal involvement,Not applicable,1,33,3.03030303030303
+All,Anatomy,Anatomy,spinal_involvement,Spinal involvement,Unknown,5,33,15.1515151515152
+All,Anatomy,Anatomy,spinal_involvement,Spinal involvement,Yes,5,33,15.1515151515152
+All,Anatomy,Anatomy,cns_involvement,CNS involvement,No,29,33,87.8787878787879
+All,Anatomy,Anatomy,cns_involvement,CNS involvement,Not applicable,1,33,3.03030303030303
+All,Anatomy,Anatomy,cns_involvement,CNS involvement,Unknown,1,33,3.03030303030303
+All,Anatomy,Anatomy,cns_involvement,CNS involvement,Yes,2,33,6.06060606060606

@@ -1,0 +1,8 @@
+Model,Courses / patients,"Flare courses / total outcomes
+Outcomes in flare courses",Excluded for missing data,OR (95% CI),P value
+"True EMD vs none/paraskeletal only
+Definite/Probable cases",1296 / 1193,"13 / 13
+Outcomes in flare courses 13",175,3.14 (1.00–9.90),0.0503
+"True EMD vs none/paraskeletal only
+Largest contributing site excluded",1122 / 1050,"11 / 11
+Outcomes in flare courses 11",176,2.11 (0.54–8.18),0.2817

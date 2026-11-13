@@ -1,0 +1,11 @@
+source,target,n
+Tumor flare after secondary review,Definite,9
+Tumor flare after secondary review,Probable,9
+Tumor flare after secondary review,Possible,15
+Definite,Primary comparative flare courses,7
+Definite,Bridging excluded,2
+Probable,Primary comparative flare courses,6
+Probable,Bridging excluded,2
+Probable,Subsequent BCMA-directed BsAb course excluded,1
+Possible,Primary comparative flare courses,13
+Possible,Bridging excluded,2

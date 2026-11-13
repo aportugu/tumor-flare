@@ -1,0 +1,13 @@
+Endpoint and model,Courses / patients,Exposed courses / exposed events,Total events / excluded for missing data,HR (95% CI),P value,PH global / flare P
+"PFS
+Unadjusted, all eligible courses",1449 / 1361,22 / 15,937 / 0,1.11 (0.66–1.85),0.6943,Unavailable / Unavailable
+"PFS
+Unadjusted, matched analysis population",1146 / 1076,20 / 13,751 / 303,0.94 (0.56–1.59),0.8259,Unavailable / Unavailable
+"PFS
+Adjusted for six baseline variables",1146 / 1076,20 / 13,751 / 303,0.86 (0.52–1.43),0.5538,0.0222 / 0.7343
+"OS
+Unadjusted, all eligible courses",1483 / 1368,25 / 14,693 / 0,1.38 (0.83–2.31),0.2170,Unavailable / Unavailable
+"OS
+Unadjusted, matched analysis population",1174 / 1082,23 / 12,551 / 309,1.18 (0.69–2.00),0.5453,Unavailable / Unavailable
+"OS
+Adjusted for six baseline variables",1174 / 1082,23 / 12,551 / 309,1.11 (0.67–1.85),0.6776,0.0215 / 0.5466
