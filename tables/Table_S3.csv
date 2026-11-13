@@ -1,47 +1,81 @@
-Domain,Scenario,Measure,Flare candidate,No included flare,Test,P value,Qualification
-Best response distribution,primary,sCR,0/23 (0.0%),"105/1,401 (7.5%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,CR,5/23 (21.7%),"376/1,401 (26.8%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,VGPR,3/23 (13.0%),"287/1,401 (20.5%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,PR,9/23 (39.1%),"185/1,401 (13.2%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,MR,1/23 (4.3%),"28/1,401 (2.0%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,SD,0/23 (0.0%),"145/1,401 (10.3%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,PD,5/23 (21.7%),"275/1,401 (19.6%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,primary,Unavailable,3/26 (11.5%),"57/1,458 (3.9%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,sCR,0/12 (0.0%),"105/1,401 (7.5%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,CR,4/12 (33.3%),"376/1,401 (26.8%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,VGPR,2/12 (16.7%),"287/1,401 (20.5%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,PR,5/12 (41.7%),"185/1,401 (13.2%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,MR,0/12 (0.0%),"28/1,401 (2.0%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,SD,0/12 (0.0%),"145/1,401 (10.3%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,PD,1/12 (8.3%),"275/1,401 (19.6%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response distribution,strict,Unavailable,1/13 (7.7%),"57/1,458 (3.9%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,primary,>=PR,17/23 (73.9%),"953/1,401 (68.0%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,primary,>=VGPR,8/23 (34.8%),"768/1,401 (54.8%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,primary,CR/sCR,5/23 (21.7%),"481/1,401 (34.3%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,strict,>=PR,11/12 (91.7%),"953/1,401 (68.0%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,strict,>=VGPR,6/12 (50.0%),"768/1,401 (54.8%)",,,Best index-course response; authoritative unknowns remain unavailable
-Best response thresholds,strict,CR/sCR,4/12 (33.3%),"481/1,401 (34.3%)",,,Best index-course response; authoritative unknowns remain unavailable
-Post-treatment events,primary,Any CRS,19/26 (73.1%),"721/1,458 (49.5%)",Fisher exact,0.0179,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Any ICANS,6/26 (23.1%),"226/1,458 (15.5%)",Fisher exact,0.2782,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Treatment tocilizumab,14/25 (56.0%),"492/1,415 (34.8%)",Fisher exact,0.0342,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Prophylactic tocilizumab,2/24 (8.3%),"171/1,437 (11.9%)",Fisher exact,1.0000,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Any admission,24/25 (96.0%),"1,212/1,314 (92.2%)",Fisher exact,0.7156,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Infection within 30 days,5/26 (19.2%),"328/1,402 (23.4%)",Fisher exact,0.8154,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,primary,Severe infection within 30 days,1/25 (4.0%),"104/1,352 (7.7%)",Fisher exact,1.0000,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Any CRS,10/13 (76.9%),"721/1,458 (49.5%)",Fisher exact,0.0549,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Any ICANS,1/13 (7.7%),"226/1,458 (15.5%)",Fisher exact,0.7048,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Treatment tocilizumab,6/13 (46.2%),"492/1,415 (34.8%)",Fisher exact,0.3939,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Prophylactic tocilizumab,0/12 (0.0%),"171/1,437 (11.9%)",Fisher exact,0.3803,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Any admission,13/13 (100.0%),"1,212/1,314 (92.2%)",Fisher exact,0.6154,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Infection within 30 days,2/13 (15.4%),"328/1,402 (23.4%)",Fisher exact,0.7439,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,strict,Severe infection within 30 days,1/13 (7.7%),"104/1,352 (7.7%)",Fisher exact,1.0000,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Any CRS,9/12 (75.0%),"607/1,286 (47.2%)",Fisher exact,0.0791,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Any ICANS,2/12 (16.7%),"185/1,286 (14.4%)",Fisher exact,0.6873,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Treatment tocilizumab,3/11 (27.3%),"401/1,243 (32.3%)",Fisher exact,1.0000,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Prophylactic tocilizumab,2/10 (20.0%),"171/1,265 (13.5%)",Fisher exact,0.6338,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Any admission,10/11 (90.9%),"1,040/1,142 (91.1%)",Fisher exact,1.0000,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Infection within 30 days,3/12 (25.0%),"275/1,235 (22.3%)",Fisher exact,0.7359,Exploratory post-treatment association; Fisher test assumes independent courses
-Post-treatment events,without_dominant_site,Severe infection within 30 days,1/11 (9.1%),"85/1,189 (7.1%)",Fisher exact,0.5603,Exploratory post-treatment association; Fisher test assumes independent courses
-Hospital duration among admissions,primary,"Days, median (IQR)",10.0 (8.0–15.0); available 24/26,"9.0 (7.0–11.0); available 1,212/1,458",Wilcoxon rank-sum,0.0154,Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses
-Hospital duration among admissions,strict,"Days, median (IQR)",9.0 (8.0–11.0); available 13/13,"9.0 (7.0–11.0); available 1,212/1,458",Wilcoxon rank-sum,0.2654,Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses
-Hospital duration among admissions,without_dominant_site,"Days, median (IQR)",11.0 (9.2–14.8); available 10/12,"8.0 (7.0–11.0); available 1,040/1,286",Wilcoxon rank-sum,0.0177,Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses
+Characteristic,Flare,No flare,P value and test,Qualification
+Primary analysis — Best response distribution
+sCR,0/23 (0.0%),"105/1,401 (7.5%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+CR,5/23 (21.7%),"376/1,401 (26.8%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+VGPR,3/23 (13.0%),"287/1,401 (20.5%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+PR,9/23 (39.1%),"185/1,401 (13.2%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+MR,1/23 (4.3%),"28/1,401 (2.0%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+SD,0/23 (0.0%),"145/1,401 (10.3%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+PD,5/23 (21.7%),"275/1,401 (19.6%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Unavailable,3/26 (11.5%),"57/1,458 (3.9%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Definite/Probable analysis — Best response distribution
+sCR,0/12 (0.0%),"105/1,401 (7.5%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+CR,4/12 (33.3%),"376/1,401 (26.8%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+VGPR,2/12 (16.7%),"287/1,401 (20.5%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+PR,5/12 (41.7%),"185/1,401 (13.2%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+MR,0/12 (0.0%),"28/1,401 (2.0%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+SD,0/12 (0.0%),"145/1,401 (10.3%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+PD,1/12 (8.3%),"275/1,401 (19.6%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Unavailable,1/13 (7.7%),"57/1,458 (3.9%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Primary analysis — Best response thresholds
+>=PR,17/23 (73.9%),"953/1,401 (68.0%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+>=VGPR,8/23 (34.8%),"768/1,401 (54.8%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+CR/sCR,5/23 (21.7%),"481/1,401 (34.3%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Definite/Probable analysis — Best response thresholds
+>=PR,11/12 (91.7%),"953/1,401 (68.0%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+>=VGPR,6/12 (50.0%),"768/1,401 (54.8%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+CR/sCR,4/12 (33.3%),"481/1,401 (34.3%)",,Best systemic BsAb response; authoritative unknowns remain unavailable
+Primary analysis — Post-treatment events
+Any CRS,19/26 (73.1%),"721/1,458 (49.5%)","0.0179
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any ICANS,6/26 (23.1%),"226/1,458 (15.5%)","0.2782
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Treatment tocilizumab,14/25 (56.0%),"492/1,415 (34.8%)","0.0342
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Prophylactic tocilizumab,2/24 (8.3%),"171/1,437 (11.9%)","1.0000
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any admission,24/25 (96.0%),"1,212/1,314 (92.2%)","0.7156
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Infection within 30 days,5/26 (19.2%),"328/1,402 (23.4%)","0.8154
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Severe infection within 30 days,1/25 (4.0%),"104/1,352 (7.7%)","1.0000
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Definite/Probable analysis — Post-treatment events
+Any CRS,10/13 (76.9%),"721/1,458 (49.5%)","0.0549
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any ICANS,1/13 (7.7%),"226/1,458 (15.5%)","0.7048
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Treatment tocilizumab,6/13 (46.2%),"492/1,415 (34.8%)","0.3939
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Prophylactic tocilizumab,0/12 (0.0%),"171/1,437 (11.9%)","0.3803
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any admission,13/13 (100.0%),"1,212/1,314 (92.2%)","0.6154
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Infection within 30 days,2/13 (15.4%),"328/1,402 (23.4%)","0.7439
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Severe infection within 30 days,1/13 (7.7%),"104/1,352 (7.7%)","1.0000
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Largest-site-exclusion — Post-treatment events
+Any CRS,9/12 (75.0%),"607/1,286 (47.2%)","0.0791
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any ICANS,2/12 (16.7%),"185/1,286 (14.4%)","0.6873
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Treatment tocilizumab,3/11 (27.3%),"401/1,243 (32.3%)","1.0000
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Prophylactic tocilizumab,2/10 (20.0%),"171/1,265 (13.5%)","0.6338
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Any admission,10/11 (90.9%),"1,040/1,142 (91.1%)","1.0000
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Infection within 30 days,3/12 (25.0%),"275/1,235 (22.3%)","0.7359
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Severe infection within 30 days,1/11 (9.1%),"85/1,189 (7.1%)","0.5603
+Fisher exact",Exploratory post-treatment association; Fisher test assumes independent courses
+Primary analysis — Hospital duration among admissions
+"Days, median (IQR)",10.0 (8.0–15.0); available 24/26,"9.0 (7.0–11.0); available 1,212/1,458","0.0154
+Wilcoxon rank-sum",Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses
+Definite/Probable analysis — Hospital duration among admissions
+"Days, median (IQR)",9.0 (8.0–11.0); available 13/13,"9.0 (7.0–11.0); available 1,212/1,458","0.2654
+Wilcoxon rank-sum",Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses
+Largest-site-exclusion — Hospital duration among admissions
+"Days, median (IQR)",11.0 (9.2–14.8); available 10/12,"8.0 (7.0–11.0); available 1,040/1,286","0.0177
+Wilcoxon rank-sum",Numeric total hospital days among recorded admissions; zero-day outpatient courses excluded; no flare-attributable duration inferred; Exploratory; assumes independent courses

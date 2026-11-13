@@ -1,0 +1,31 @@
+Endpoint and model,Courses and patients,Exposed courses and events,Total events and missing exclusions,HR with 95% CI,P value,PH global and flare P
+"PFS
+Time-dependent exposure
+Unadjusted: all eligible",1269 / 1208,10 / 5,811 / 0,0.81 (0.35–1.86),0.6191,Unavailable / Unavailable
+"PFS
+Time-dependent exposure
+Unadjusted: adjusted subset",999 / 953,9 / 4,644 / 270,0.65 (0.27–1.55),0.3277,Unavailable / Unavailable
+"PFS
+Time-dependent exposure
+Adjusted: six baseline variables",999 / 953,9 / 4,644 / 270,0.57 (0.26–1.27),0.1691,0.0385 / 0.2912
+"OS
+Time-dependent exposure
+Unadjusted: all eligible",1298 / 1214,12 / 4,588 / 0,1.01 (0.39–2.61),0.9794,Unavailable / Unavailable
+"OS
+Time-dependent exposure
+Unadjusted: adjusted subset",1022 / 958,11 / 3,463 / 276,0.77 (0.27–2.18),0.6253,Unavailable / Unavailable
+"OS
+Time-dependent exposure
+Adjusted: six baseline variables",1022 / 958,11 / 3,463 / 276,0.67 (0.26–1.71),0.4042,0.0398 / 0.5464
+"PFS
+Landmark sensitivity
+ day 30",1063 / 1018,6 / 3,609 /,0.80 (0.27–2.31),0.6741,Unavailable / Unavailable
+"PFS
+Landmark sensitivity
+ day 60",934 / 899,7 / 4,489 /,1.19 (0.44–3.20),0.7307,Unavailable / Unavailable
+"OS
+Landmark sensitivity
+ day 30",1207 / 1130,8 / 4,506 /,1.57 (0.55–4.50),0.4000,Unavailable / Unavailable
+"OS
+Landmark sensitivity
+ day 60",1117 / 1044,8 / 3,429 /,1.28 (0.40–4.09),0.6719,Unavailable / Unavailable

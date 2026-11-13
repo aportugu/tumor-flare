@@ -1,0 +1,69 @@
+Model,Courses and patients,Flare and events,Excluded missing,OR with 95% CI,P and laboratory BH P,Bootstrap successes and seed
+"Age, per 10 years",1298 / 1214,"12 / 12
+Flare events 12",0,1.68 (0.92–3.08),"0.0922
+Adjusted P unavailable","1000/1000
+20261141"
+ECOG 2–5 vs 0–1,1265 / 1182,"12 / 12
+Flare events 12",33,1.67 (0.45–6.29),"0.4464
+Adjusted P unavailable","1000/1000
+20261142"
+Female vs male,1296 / 1213,"12 / 12
+Flare events 12",2,0.55 (0.15–1.97),"0.3591
+Adjusted P unavailable","1000/1000
+20261143"
+"Prior treatment lines, per line",1283 / 1204,"11 / 11
+Flare events 11",15,0.92 (0.71–1.21),"0.5639
+Adjusted P unavailable","1000/1000
+20261144"
+At least one HRCA vs none,1179 / 1108,"11 / 11
+Flare events 11",119,0.68 (0.19–2.47),"0.5536
+Adjusted P unavailable","1000/1000
+20261145"
+True EMD vs none/paraskeletal only,1122 / 1050,"11 / 11
+Flare events 11",176,2.11 (0.54–8.18),"0.2817
+Adjusted P unavailable","1000/1000
+20261146"
+"Hemoglobin, per g/dL",1254 / 1174,"11 / 11
+Flare events 11",44,1.05 (0.81–1.36),"0.6956
+BH 0.8696","1000/1000
+20261147"
+"Albumin, per g/dL",1244 / 1164,"11 / 11
+Flare events 11",54,1.00 (0.53–1.92),"0.9889
+BH 0.9889","1000/1000
+20261148"
+"LDH, per doubling",1121 / 1054,"10 / 10
+Flare events 10",177,1.49 (0.43–5.17),"0.5269
+BH 0.8696","1000/1000
+20261149"
+"Ferritin, per doubling",953 / 888,"9 / 9
+Flare events 9",345,0.91 (0.76–1.10),"0.3217
+BH 0.8696","1000/1000
+20261150"
+"CRP, per doubling",944 / 879,"9 / 9
+Flare events 9",354,1.08 (0.80–1.44),"0.6167
+BH 0.8696","1000/1000
+20261151"
+Response ≥PR (unadjusted),1245 / 1172,"10 / 845
+Flare events 8",53,1.62 (0.34–7.70),"0.5457
+Adjusted P unavailable","1000/1000
+20261152"
+Response ≥PR (adjusted),979 / 923,"9 / 664
+Flare events 8",319,2.38 (0.57–10.02),"0.2367
+Adjusted P unavailable","1000/1000
+20261153"
+Response ≥VGPR (unadjusted),1245 / 1172,"10 / 676
+Flare events 4",53,0.58 (0.14–2.36),"0.4466
+Adjusted P unavailable","1000/1000
+20261154"
+Response ≥VGPR (adjusted),979 / 923,"9 / 531
+Flare events 4",319,0.59 (0.13–2.77),"0.5075
+Adjusted P unavailable","1000/1000
+20261155"
+Response CR/sCR (unadjusted),1245 / 1172,"10 / 407
+Flare events 2",53,0.60 (0.13–2.90),"0.5269
+Adjusted P unavailable","1000/1000
+20261156"
+Response CR/sCR (adjusted),979 / 923,"9 / 324
+Flare events 2",319,0.55 (0.09–3.32),"0.5174
+Adjusted P unavailable","1000/1000
+20261157"

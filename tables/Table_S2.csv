@@ -1,106 +1,316 @@
-Domain,Scenario,Group or site,Measure,Total,Evaluable,Unavailable,Detail
-Site ascertainment,Primary eligibility,CCF,Recorded flare ascertainment,186,186,0,Master courses: 199; original flare flags: 15; returned records: 15; returned suspected cases: 15
-Site ascertainment,Primary eligibility,COH,Recorded flare ascertainment,46,0,46,Master courses: 50; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,DFCI,Recorded flare ascertainment,175,0,175,Master courses: 183; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,Duke,Recorded flare ascertainment,22,22,0,Master courses: 26; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,FHCC,Recorded flare ascertainment,141,141,0,Master courses: 166; original flare flags: 4; returned records: 4; returned suspected cases: 4
-Site ascertainment,Primary eligibility,Hamilton,Recorded flare ascertainment,20,0,20,Master courses: 20; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,HMHN,Recorded flare ascertainment,22,22,0,Master courses: 28; original flare flags: 2; returned records: 2; returned suspected cases: 2
-Site ascertainment,Primary eligibility,Huntsman,Recorded flare ascertainment,76,0,76,Master courses: 93; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,Minnesota,Recorded flare ascertainment,36,36,0,Master courses: 40; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,LCI,Recorded flare ascertainment,39,39,0,Master courses: 42; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,Mayo,Recorded flare ascertainment,120,120,0,Master courses: 127; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,MDACC,Recorded flare ascertainment,183,169,14,Master courses: 195; original flare flags: 3; returned records: 5; returned suspected cases: 5
-Site ascertainment,Primary eligibility,Moffitt,Recorded flare ascertainment,265,265,0,Master courses: 329; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,MUSC,Recorded flare ascertainment,89,89,0,Master courses: 109; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,OHSU,Recorded flare ascertainment,72,53,19,Master courses: 73; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,Roswell,Recorded flare ascertainment,5,5,0,Master courses: 6; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,Seidman,Recorded flare ascertainment,70,70,0,Master courses: 72; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,Stanford,Recorded flare ascertainment,100,100,0,Master courses: 141; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,UCSF,Recorded flare ascertainment,47,47,0,Master courses: 48; original flare flags: 0; returned records: 0; returned suspected cases: 0
-Site ascertainment,Primary eligibility,UIC,Recorded flare ascertainment,20,20,0,Master courses: 22; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Site ascertainment,Primary eligibility,UTSW,Recorded flare ascertainment,100,100,0,Master courses: 115; original flare flags: 1; returned records: 1; returned suspected cases: 1
-Variable availability,primary,No included flare,age10,1458,1458,0,
-Variable availability,primary,Flare candidate,age10,26,26,0,
-Variable availability,primary,No included flare,ecog2,1458,1425,33,
-Variable availability,primary,Flare candidate,ecog2,26,26,0,
-Variable availability,primary,No included flare,female,1458,1456,2,
-Variable availability,primary,Flare candidate,female,26,26,0,
-Variable availability,primary,No included flare,prior_lines,1458,1444,14,
-Variable availability,primary,Flare candidate,prior_lines,26,25,1,
-Variable availability,primary,No included flare,hrca,1458,1308,150,
-Variable availability,primary,Flare candidate,hrca,26,24,2,
-Variable availability,primary,No included flare,true_emd,1458,1283,175,
-Variable availability,primary,Flare candidate,true_emd,26,25,1,
-Variable availability,primary,No included flare,hgb,1458,1415,43,
-Variable availability,primary,Flare candidate,hgb,26,25,1,
-Variable availability,primary,No included flare,albumin,1458,1404,54,
-Variable availability,primary,Flare candidate,albumin,26,25,1,
-Variable availability,primary,No included flare,log2_ldh,1458,1224,234,
-Variable availability,primary,Flare candidate,log2_ldh,26,15,11,
-Variable availability,primary,No included flare,log2_ferritin,1458,989,469,
-Variable availability,primary,Flare candidate,log2_ferritin,26,9,17,
-Variable availability,primary,No included flare,log2_crp,1458,983,475,
-Variable availability,primary,Flare candidate,log2_crp,26,10,16,
-Variable availability,primary,No included flare,response_pr,1458,1401,57,
-Variable availability,primary,Flare candidate,response_pr,26,23,3,
-Variable availability,primary,No included flare,response_vgpr,1458,1401,57,
-Variable availability,primary,Flare candidate,response_vgpr,26,23,3,
-Variable availability,primary,No included flare,response_cr,1458,1401,57,
-Variable availability,primary,Flare candidate,response_cr,26,23,3,
-Variable availability,strict,No included flare,age10,1458,1458,0,
-Variable availability,strict,Flare candidate,age10,13,13,0,
-Variable availability,strict,No included flare,ecog2,1458,1425,33,
-Variable availability,strict,Flare candidate,ecog2,13,13,0,
-Variable availability,strict,No included flare,female,1458,1456,2,
-Variable availability,strict,Flare candidate,female,13,13,0,
-Variable availability,strict,No included flare,prior_lines,1458,1444,14,
-Variable availability,strict,Flare candidate,prior_lines,13,13,0,
-Variable availability,strict,No included flare,hrca,1458,1308,150,
-Variable availability,strict,Flare candidate,hrca,13,12,1,
-Variable availability,strict,No included flare,true_emd,1458,1283,175,
-Variable availability,strict,Flare candidate,true_emd,13,13,0,
-Variable availability,strict,No included flare,hgb,1458,1415,43,
-Variable availability,strict,Flare candidate,hgb,13,13,0,
-Variable availability,strict,No included flare,albumin,1458,1404,54,
-Variable availability,strict,Flare candidate,albumin,13,13,0,
-Variable availability,strict,No included flare,log2_ldh,1458,1224,234,
-Variable availability,strict,Flare candidate,log2_ldh,13,7,6,
-Variable availability,strict,No included flare,log2_ferritin,1458,989,469,
-Variable availability,strict,Flare candidate,log2_ferritin,13,5,8,
-Variable availability,strict,No included flare,log2_crp,1458,983,475,
-Variable availability,strict,Flare candidate,log2_crp,13,6,7,
-Variable availability,strict,No included flare,response_pr,1458,1401,57,
-Variable availability,strict,Flare candidate,response_pr,13,12,1,
-Variable availability,strict,No included flare,response_vgpr,1458,1401,57,
-Variable availability,strict,Flare candidate,response_vgpr,13,12,1,
-Variable availability,strict,No included flare,response_cr,1458,1401,57,
-Variable availability,strict,Flare candidate,response_cr,13,12,1,
-Variable availability,without_dominant_site,No included flare,age10,1286,1286,0,
-Variable availability,without_dominant_site,Flare candidate,age10,12,12,0,
-Variable availability,without_dominant_site,No included flare,ecog2,1286,1253,33,
-Variable availability,without_dominant_site,Flare candidate,ecog2,12,12,0,
-Variable availability,without_dominant_site,No included flare,female,1286,1284,2,
-Variable availability,without_dominant_site,Flare candidate,female,12,12,0,
-Variable availability,without_dominant_site,No included flare,prior_lines,1286,1272,14,
-Variable availability,without_dominant_site,Flare candidate,prior_lines,12,11,1,
-Variable availability,without_dominant_site,No included flare,hrca,1286,1168,118,
-Variable availability,without_dominant_site,Flare candidate,hrca,12,11,1,
-Variable availability,without_dominant_site,No included flare,true_emd,1286,1111,175,
-Variable availability,without_dominant_site,Flare candidate,true_emd,12,11,1,
-Variable availability,without_dominant_site,No included flare,hgb,1286,1243,43,
-Variable availability,without_dominant_site,Flare candidate,hgb,12,11,1,
-Variable availability,without_dominant_site,No included flare,albumin,1286,1233,53,
-Variable availability,without_dominant_site,Flare candidate,albumin,12,11,1,
-Variable availability,without_dominant_site,No included flare,log2_ldh,1286,1111,175,
-Variable availability,without_dominant_site,Flare candidate,log2_ldh,12,10,2,
-Variable availability,without_dominant_site,No included flare,log2_ferritin,1286,944,342,
-Variable availability,without_dominant_site,Flare candidate,log2_ferritin,12,9,3,
-Variable availability,without_dominant_site,No included flare,log2_crp,1286,935,351,
-Variable availability,without_dominant_site,Flare candidate,log2_crp,12,9,3,
-Variable availability,without_dominant_site,No included flare,response_pr,1286,1235,51,
-Variable availability,without_dominant_site,Flare candidate,response_pr,12,10,2,
-Variable availability,without_dominant_site,No included flare,response_vgpr,1286,1235,51,
-Variable availability,without_dominant_site,Flare candidate,response_vgpr,12,10,2,
-Variable availability,without_dominant_site,No included flare,response_cr,1286,1235,51,
-Variable availability,without_dominant_site,Flare candidate,response_cr,12,10,2,
+Domain and population,Measure,Total,Evaluable,Unavailable,Review counts
+"Site ascertainment
+Primary eligibility
+CCF",Flare status,186,186,0,Total treatment courses: 199; preliminary candidates: 15; secondary reviews: 15; flare cases after secondary review: 15
+"Site ascertainment
+Primary eligibility
+COH",Flare status,46,0,46,Total treatment courses: 50; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+DFCI",Flare status,175,0,175,Total treatment courses: 183; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+Duke",Flare status,22,22,0,Total treatment courses: 26; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+FHCC",Flare status,141,141,0,Total treatment courses: 166; preliminary candidates: 4; secondary reviews: 4; flare cases after secondary review: 4
+"Site ascertainment
+Primary eligibility
+Hamilton",Flare status,20,0,20,Total treatment courses: 20; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+HMHN",Flare status,22,22,0,Total treatment courses: 28; preliminary candidates: 2; secondary reviews: 2; flare cases after secondary review: 2
+"Site ascertainment
+Primary eligibility
+Huntsman",Flare status,76,0,76,Total treatment courses: 93; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+Minnesota",Flare status,36,36,0,Total treatment courses: 40; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+LCI",Flare status,39,39,0,Total treatment courses: 42; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+Mayo",Flare status,120,120,0,Total treatment courses: 127; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+MDACC",Flare status,183,169,14,Total treatment courses: 195; preliminary candidates: 3; secondary reviews: 5; flare cases after secondary review: 5
+"Site ascertainment
+Primary eligibility
+Moffitt",Flare status,265,265,0,Total treatment courses: 329; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+MUSC",Flare status,89,89,0,Total treatment courses: 109; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+OHSU",Flare status,72,53,19,Total treatment courses: 73; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+Roswell",Flare status,5,5,0,Total treatment courses: 6; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+Seidman",Flare status,70,70,0,Total treatment courses: 72; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+Stanford",Flare status,100,100,0,Total treatment courses: 141; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+UCSF",Flare status,47,47,0,Total treatment courses: 48; preliminary candidates: 0; secondary reviews: 0; flare cases after secondary review: 0
+"Site ascertainment
+Primary eligibility
+UIC",Flare status,20,20,0,Total treatment courses: 22; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Site ascertainment
+Primary eligibility
+UTSW",Flare status,100,100,0,Total treatment courses: 115; preliminary candidates: 1; secondary reviews: 1; flare cases after secondary review: 1
+"Variable availability
+Primary analysis
+No flare",Age (per 10 years),1458,1458,0,
+"Variable availability
+Primary analysis
+Flare",Age (per 10 years),26,26,0,
+"Variable availability
+Primary analysis
+No flare",ECOG (2–5 vs 0–1),1458,1425,33,
+"Variable availability
+Primary analysis
+Flare",ECOG (2–5 vs 0–1),26,26,0,
+"Variable availability
+Primary analysis
+No flare",Sex (female vs male),1458,1456,2,
+"Variable availability
+Primary analysis
+Flare",Sex (female vs male),26,26,0,
+"Variable availability
+Primary analysis
+No flare",Prior treatment lines,1458,1444,14,
+"Variable availability
+Primary analysis
+Flare",Prior treatment lines,26,25,1,
+"Variable availability
+Primary analysis
+No flare",At least one HRCA,1458,1308,150,
+"Variable availability
+Primary analysis
+Flare",At least one HRCA,26,24,2,
+"Variable availability
+Primary analysis
+No flare",Baseline true EMD,1458,1283,175,
+"Variable availability
+Primary analysis
+Flare",Baseline true EMD,26,25,1,
+"Variable availability
+Primary analysis
+No flare",Hemoglobin,1458,1415,43,
+"Variable availability
+Primary analysis
+Flare",Hemoglobin,26,25,1,
+"Variable availability
+Primary analysis
+No flare",Albumin,1458,1404,54,
+"Variable availability
+Primary analysis
+Flare",Albumin,26,25,1,
+"Variable availability
+Primary analysis
+No flare",LDH (log2),1458,1224,234,
+"Variable availability
+Primary analysis
+Flare",LDH (log2),26,15,11,
+"Variable availability
+Primary analysis
+No flare",Ferritin (log2),1458,989,469,
+"Variable availability
+Primary analysis
+Flare",Ferritin (log2),26,9,17,
+"Variable availability
+Primary analysis
+No flare",CRP (log2),1458,983,475,
+"Variable availability
+Primary analysis
+Flare",CRP (log2),26,10,16,
+"Variable availability
+Primary analysis
+No flare",Best response ≥PR,1458,1401,57,
+"Variable availability
+Primary analysis
+Flare",Best response ≥PR,26,23,3,
+"Variable availability
+Primary analysis
+No flare",Best response ≥VGPR,1458,1401,57,
+"Variable availability
+Primary analysis
+Flare",Best response ≥VGPR,26,23,3,
+"Variable availability
+Primary analysis
+No flare",Best response CR/sCR,1458,1401,57,
+"Variable availability
+Primary analysis
+Flare",Best response CR/sCR,26,23,3,
+"Variable availability
+Definite/Probable analysis
+No flare",Age (per 10 years),1458,1458,0,
+"Variable availability
+Definite/Probable analysis
+Flare",Age (per 10 years),13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",ECOG (2–5 vs 0–1),1458,1425,33,
+"Variable availability
+Definite/Probable analysis
+Flare",ECOG (2–5 vs 0–1),13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",Sex (female vs male),1458,1456,2,
+"Variable availability
+Definite/Probable analysis
+Flare",Sex (female vs male),13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",Prior treatment lines,1458,1444,14,
+"Variable availability
+Definite/Probable analysis
+Flare",Prior treatment lines,13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",At least one HRCA,1458,1308,150,
+"Variable availability
+Definite/Probable analysis
+Flare",At least one HRCA,13,12,1,
+"Variable availability
+Definite/Probable analysis
+No flare",Baseline true EMD,1458,1283,175,
+"Variable availability
+Definite/Probable analysis
+Flare",Baseline true EMD,13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",Hemoglobin,1458,1415,43,
+"Variable availability
+Definite/Probable analysis
+Flare",Hemoglobin,13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",Albumin,1458,1404,54,
+"Variable availability
+Definite/Probable analysis
+Flare",Albumin,13,13,0,
+"Variable availability
+Definite/Probable analysis
+No flare",LDH (log2),1458,1224,234,
+"Variable availability
+Definite/Probable analysis
+Flare",LDH (log2),13,7,6,
+"Variable availability
+Definite/Probable analysis
+No flare",Ferritin (log2),1458,989,469,
+"Variable availability
+Definite/Probable analysis
+Flare",Ferritin (log2),13,5,8,
+"Variable availability
+Definite/Probable analysis
+No flare",CRP (log2),1458,983,475,
+"Variable availability
+Definite/Probable analysis
+Flare",CRP (log2),13,6,7,
+"Variable availability
+Definite/Probable analysis
+No flare",Best response ≥PR,1458,1401,57,
+"Variable availability
+Definite/Probable analysis
+Flare",Best response ≥PR,13,12,1,
+"Variable availability
+Definite/Probable analysis
+No flare",Best response ≥VGPR,1458,1401,57,
+"Variable availability
+Definite/Probable analysis
+Flare",Best response ≥VGPR,13,12,1,
+"Variable availability
+Definite/Probable analysis
+No flare",Best response CR/sCR,1458,1401,57,
+"Variable availability
+Definite/Probable analysis
+Flare",Best response CR/sCR,13,12,1,
+"Variable availability
+Largest-site-exclusion
+No flare",Age (per 10 years),1286,1286,0,
+"Variable availability
+Largest-site-exclusion
+Flare",Age (per 10 years),12,12,0,
+"Variable availability
+Largest-site-exclusion
+No flare",ECOG (2–5 vs 0–1),1286,1253,33,
+"Variable availability
+Largest-site-exclusion
+Flare",ECOG (2–5 vs 0–1),12,12,0,
+"Variable availability
+Largest-site-exclusion
+No flare",Sex (female vs male),1286,1284,2,
+"Variable availability
+Largest-site-exclusion
+Flare",Sex (female vs male),12,12,0,
+"Variable availability
+Largest-site-exclusion
+No flare",Prior treatment lines,1286,1272,14,
+"Variable availability
+Largest-site-exclusion
+Flare",Prior treatment lines,12,11,1,
+"Variable availability
+Largest-site-exclusion
+No flare",At least one HRCA,1286,1168,118,
+"Variable availability
+Largest-site-exclusion
+Flare",At least one HRCA,12,11,1,
+"Variable availability
+Largest-site-exclusion
+No flare",Baseline true EMD,1286,1111,175,
+"Variable availability
+Largest-site-exclusion
+Flare",Baseline true EMD,12,11,1,
+"Variable availability
+Largest-site-exclusion
+No flare",Hemoglobin,1286,1243,43,
+"Variable availability
+Largest-site-exclusion
+Flare",Hemoglobin,12,11,1,
+"Variable availability
+Largest-site-exclusion
+No flare",Albumin,1286,1233,53,
+"Variable availability
+Largest-site-exclusion
+Flare",Albumin,12,11,1,
+"Variable availability
+Largest-site-exclusion
+No flare",LDH (log2),1286,1111,175,
+"Variable availability
+Largest-site-exclusion
+Flare",LDH (log2),12,10,2,
+"Variable availability
+Largest-site-exclusion
+No flare",Ferritin (log2),1286,944,342,
+"Variable availability
+Largest-site-exclusion
+Flare",Ferritin (log2),12,9,3,
+"Variable availability
+Largest-site-exclusion
+No flare",CRP (log2),1286,935,351,
+"Variable availability
+Largest-site-exclusion
+Flare",CRP (log2),12,9,3,
+"Variable availability
+Largest-site-exclusion
+No flare",Best response ≥PR,1286,1235,51,
+"Variable availability
+Largest-site-exclusion
+Flare",Best response ≥PR,12,10,2,
+"Variable availability
+Largest-site-exclusion
+No flare",Best response ≥VGPR,1286,1235,51,
+"Variable availability
+Largest-site-exclusion
+Flare",Best response ≥VGPR,12,10,2,
+"Variable availability
+Largest-site-exclusion
+No flare",Best response CR/sCR,1286,1235,51,
+"Variable availability
+Largest-site-exclusion
+Flare",Best response CR/sCR,12,10,2,
