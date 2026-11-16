@@ -11,14 +11,13 @@ Dosing phase at flare onset,,,
   Cycle 3 or later,2/33 (6.1%),0/18 (0.0%),2/15 (13.3%)
   Unknown,1/33 (3.0%),0/18 (0.0%),1/15 (6.7%)
 "Timing after the first step-up dose, days",,,
-"Onset, median (IQR); available n",4 (2–6.25); n = 32,4 (3–4); n = 17,5 (2–18.5); n = 15
+"Onset, median (IQR); available n",4 (2–6); n = 33,3.5 (3–4); n = 18,5 (2–18.5); n = 15
 "Peak, median (IQR); available n",5 (4–16); n = 33,5 (4–8.5); n = 18,16 (5–27.5); n = 15
 "Symptom resolution, median (IQR); available n",13 (9–29.5); n = 22,13 (7–29); n = 15,13 (11–25); n = 7
 Date uncertainty,,,
-Estimated onset date,2/33 (6.1%),0/18 (0.0%),2/15 (13.3%)
+Estimated onset date,3/33 (9.1%),1/18 (5.6%),2/15 (13.3%)
 Estimated peak date,4/33 (12.1%),1/18 (5.6%),3/15 (20.0%)
 Estimated symptom-resolution date,"2/33 (6.1%)
 Unavailable: 11/33 (33.3%)","2/18 (11.1%)
 Unavailable: 3/18 (16.7%)","0/15 (0.0%)
 Unavailable: 8/15 (53.3%)"
-Onset interval without a date,1/33 (3.0%),1/18 (5.6%),0/15 (0.0%)

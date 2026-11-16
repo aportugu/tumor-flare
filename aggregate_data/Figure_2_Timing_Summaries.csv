@@ -1,4 +1,4 @@
 measure,n,total_n,median,q1,q3
-Onset,32,33,4.0,2.0,6.25
+Onset,33,33,4.0,2.0,6.0
 Peak,33,33,5.0,4.0,16.0
 Symptom resolution,22,33,13.0,9.0,29.5
