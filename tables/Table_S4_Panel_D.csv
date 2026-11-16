@@ -1,9 +1,0 @@
-Endpoint and model,Courses / patients,Exposed courses / exposed events,Total events,HR (95% CI),P value,PH global / flare P
-"PFS
-Day 30 landmark",1216 / 1152,14 / 9,709,0.93 (0.52–1.69),0.8192,Unavailable / Unavailable
-"PFS
-Day 60 landmark",1066 / 1020,15 / 10,568,1.22 (0.66–2.25),0.5288,Unavailable / Unavailable
-"OS
-Day 30 landmark",1378 / 1274,20 / 12,597,1.41 (0.80–2.48),0.2364,Unavailable / Unavailable
-"OS
-Day 60 landmark",1277 / 1178,19 / 10,509,1.32 (0.72–2.40),0.3720,Unavailable / Unavailable

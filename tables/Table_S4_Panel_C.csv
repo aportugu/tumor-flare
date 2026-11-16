@@ -1,5 +1,0 @@
-Endpoint and model,Courses / patients,Exposed courses / exposed events,Total events / excluded for missing data,HR (95% CI),P value,PH global / flare P
-"PFS
-Adjusted for six baseline variables",999 / 953,9 / 4,644 / 270,0.57 (0.26–1.27),0.1691,0.0385 / 0.2912
-"OS
-Adjusted for six baseline variables",1022 / 958,11 / 3,463 / 276,0.67 (0.26–1.71),0.4042,0.0398 / 0.5464
