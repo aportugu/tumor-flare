@@ -1902,6 +1902,9 @@ tf_outcome_data &lt;- function(x) x
 # Aggregate manuscript display exports and restricted row-level analytical audit.
 tf_write &lt;- function(d,output_dir,name)utils::write.csv(d,file.path(output_dir,paste0(name,&quot;.csv&quot;)),row.names=FALSE,na=&quot;&quot;)
 
+# Stable named export for Firth fit, profile and restricted-test diagnostics.
+tf_export_firth_diagnostics &lt;- function(d,output_dir)tf_write(d,output_dir,&quot;firth_diagnostics&quot;)
+
 tf_counts &lt;- function(cases,fields,labels,sections,groups=TRUE) {
   populations&lt;-list(All=cases)
   if(groups) {
@@ -2028,6 +2031,7 @@ tf_export_models &lt;- function(a,m,out) {
   mapping&lt;-c(models=&quot;models&quot;,model_diagnostics=&quot;model_diagnostics&quot;,missingness=&quot;missingness&quot;,
     survival=&quot;survival_models&quot;,clinical=&quot;clinical_comparisons&quot;,hospitalization=&quot;hospitalization&quot;,landmark_sensitivity=&quot;landmark_models&quot;)
   for(field in names(mapping))tf_write(m[[field]],out,mapping[[field]])
+  tf_export_firth_diagnostics(m$model_diagnostics,out)
   tf_write(m$model_membership,out,&quot;model_membership_restricted&quot;)
   tf_write(m$survival_membership,out,&quot;survival_membership_restricted&quot;)
   thresholds&lt;-dplyr::bind_rows(lapply(names(a$cohorts),function(scenario) {
@@ -3374,6 +3378,9 @@ cat(&quot;Reverse KM complete:&quot;,nrow(data),&quot;primary courses;&quot;,nro
 # Aggregate manuscript display exports and restricted row-level analytical audit.
 tf_write &lt;- function(d,output_dir,name)utils::write.csv(d,file.path(output_dir,paste0(name,&quot;.csv&quot;)),row.names=FALSE,na=&quot;&quot;)
 
+# Stable named export for Firth fit, profile and restricted-test diagnostics.
+tf_export_firth_diagnostics &lt;- function(d,output_dir)tf_write(d,output_dir,&quot;firth_diagnostics&quot;)
+
 tf_counts &lt;- function(cases,fields,labels,sections,groups=TRUE) {
   populations&lt;-list(All=cases)
   if(groups) {
@@ -3500,6 +3507,7 @@ tf_export_models &lt;- function(a,m,out) {
   mapping&lt;-c(models=&quot;models&quot;,model_diagnostics=&quot;model_diagnostics&quot;,missingness=&quot;missingness&quot;,
     survival=&quot;survival_models&quot;,clinical=&quot;clinical_comparisons&quot;,hospitalization=&quot;hospitalization&quot;,landmark_sensitivity=&quot;landmark_models&quot;)
   for(field in names(mapping))tf_write(m[[field]],out,mapping[[field]])
+  tf_export_firth_diagnostics(m$model_diagnostics,out)
   tf_write(m$model_membership,out,&quot;model_membership_restricted&quot;)
   tf_write(m$survival_membership,out,&quot;survival_membership_restricted&quot;)
   thresholds&lt;-dplyr::bind_rows(lapply(names(a$cohorts),function(scenario) {
@@ -3966,6 +3974,9 @@ if __name__ == &#x27;__main__&#x27;:
 # Aggregate manuscript display exports and restricted row-level analytical audit.
 tf_write &lt;- function(d,output_dir,name)utils::write.csv(d,file.path(output_dir,paste0(name,&quot;.csv&quot;)),row.names=FALSE,na=&quot;&quot;)
 
+# Stable named export for Firth fit, profile and restricted-test diagnostics.
+tf_export_firth_diagnostics &lt;- function(d,output_dir)tf_write(d,output_dir,&quot;firth_diagnostics&quot;)
+
 tf_counts &lt;- function(cases,fields,labels,sections,groups=TRUE) {
   populations&lt;-list(All=cases)
   if(groups) {
@@ -4092,6 +4103,7 @@ tf_export_models &lt;- function(a,m,out) {
   mapping&lt;-c(models=&quot;models&quot;,model_diagnostics=&quot;model_diagnostics&quot;,missingness=&quot;missingness&quot;,
     survival=&quot;survival_models&quot;,clinical=&quot;clinical_comparisons&quot;,hospitalization=&quot;hospitalization&quot;,landmark_sensitivity=&quot;landmark_models&quot;)
   for(field in names(mapping))tf_write(m[[field]],out,mapping[[field]])
+  tf_export_firth_diagnostics(m$model_diagnostics,out)
   tf_write(m$model_membership,out,&quot;model_membership_restricted&quot;)
   tf_write(m$survival_membership,out,&quot;survival_membership_restricted&quot;)
   thresholds&lt;-dplyr::bind_rows(lapply(names(a$cohorts),function(scenario) {
@@ -8780,6 +8792,9 @@ if __name__ == &quot;__main__&quot;:
 # Aggregate manuscript display exports and restricted row-level analytical audit.
 tf_write &lt;- function(d,output_dir,name)utils::write.csv(d,file.path(output_dir,paste0(name,&quot;.csv&quot;)),row.names=FALSE,na=&quot;&quot;)
 
+# Stable named export for Firth fit, profile and restricted-test diagnostics.
+tf_export_firth_diagnostics &lt;- function(d,output_dir)tf_write(d,output_dir,&quot;firth_diagnostics&quot;)
+
 tf_counts &lt;- function(cases,fields,labels,sections,groups=TRUE) {
   populations&lt;-list(All=cases)
   if(groups) {
@@ -8906,6 +8921,7 @@ tf_export_models &lt;- function(a,m,out) {
   mapping&lt;-c(models=&quot;models&quot;,model_diagnostics=&quot;model_diagnostics&quot;,missingness=&quot;missingness&quot;,
     survival=&quot;survival_models&quot;,clinical=&quot;clinical_comparisons&quot;,hospitalization=&quot;hospitalization&quot;,landmark_sensitivity=&quot;landmark_models&quot;)
   for(field in names(mapping))tf_write(m[[field]],out,mapping[[field]])
+  tf_export_firth_diagnostics(m$model_diagnostics,out)
   tf_write(m$model_membership,out,&quot;model_membership_restricted&quot;)
   tf_write(m$survival_membership,out,&quot;survival_membership_restricted&quot;)
   thresholds&lt;-dplyr::bind_rows(lapply(names(a$cohorts),function(scenario) {
@@ -9070,8 +9086,9 @@ fit_immune_models &lt;- function(d, config, output_dir) {
   options(digits=17)
   write.csv(result,file.path(output_dir,&#x27;Table_S3_Immune_Associations.csv&#x27;),row.names=FALSE,na=&#x27;&#x27;)
   saveRDS(fits,file.path(output_dir,&#x27;immune_models_restricted.rds&#x27;))
-  write.csv(do.call(rbind,lapply(fits,`[[`,&#x27;diagnostics&#x27;)),
-    file.path(output_dir,&#x27;model_diagnostics.csv&#x27;),row.names=FALSE)
+  diagnostics &lt;- do.call(rbind,lapply(fits,`[[`,&#x27;diagnostics&#x27;))
+  for (name in c(&#x27;firth_diagnostics.csv&#x27;,&#x27;model_diagnostics.csv&#x27;))
+    write.csv(diagnostics,file.path(output_dir,name),row.names=FALSE)
   write.csv(do.call(rbind,lapply(fits,`[[`,&#x27;membership&#x27;)),
     file.path(output_dir,&#x27;model_membership_restricted.csv&#x27;),row.names=FALSE)
   writeLines(c(&#x27;Three immune models; Firth profile penalized-likelihood intervals and penalized likelihood-ratio P values.&#x27;,
