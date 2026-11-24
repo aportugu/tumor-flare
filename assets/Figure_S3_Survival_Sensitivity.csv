@@ -1,0 +1,11 @@
+endpoint,analysis,n_courses,n_patient_clusters,events,exposed_courses,exposed_events,excluded_missing,estimate,conf_low,conf_high,p_value,model_status,fit_reason,object_id
+PFS,primary,1146,1076,751,20,13,303,0.85736433105442,0.515108942738097,1.4270254992217,0.553839319339765,Estimated (exploratory),,primary:PFS:Adjusted: six baseline variables
+PFS,strict,1136,1067,744,10,6,302,0.559484643043939,0.304041553499419,1.02954041051038,0.0619852615566443,Estimated (exploratory),,strict:PFS:Adjusted: six baseline variables
+PFS,without_dominant_site,999,953,644,9,4,270,0.569972184949522,0.255787226052046,1.27007238254357,0.169084528395657,Estimated (exploratory),,without_dominant_site:PFS:Adjusted: six baseline variables
+PFS,landmark_30,964,915,572,14,9,252,0.766115604554275,0.430078009242568,1.36471316116637,0.365776284041561,Estimated (exploratory),,primary:PFS:landmark:30:adjusted
+PFS,landmark_60,851,813,466,15,10,215,0.974886968401817,0.53079634944462,1.79052588088465,0.934649475577802,Estimated (exploratory),,primary:PFS:landmark:60:adjusted
+OS,primary,1175,1082,551,24,12,309,0.969839590089094,0.565740615006406,1.66257964437206,0.911329972500266,Estimated (exploratory),,primary:OS:Adjusted: six baseline variables
+OS,strict,1163,1071,544,12,5,308,0.539047693157501,0.265896544353204,1.09280252665654,0.0865588965614393,Estimated (exploratory),,strict:OS:Adjusted: six baseline variables
+OS,without_dominant_site,1022,958,463,11,3,276,0.671149618080145,0.262957930618517,1.71298050904804,0.404217760510156,Estimated (exploratory),,without_dominant_site:OS:Adjusted: six baseline variables
+OS,landmark_30,1087,1006,471,18,10,291,0.983481620868619,0.558684079807267,1.73127556976393,0.953965618556482,Estimated (exploratory),,primary:OS:landmark:30:adjusted
+OS,landmark_60,1017,940,411,19,10,260,1.06893944535529,0.595711160838597,1.91809657591099,0.823157083733566,Estimated (exploratory),,primary:OS:landmark:60:adjusted
